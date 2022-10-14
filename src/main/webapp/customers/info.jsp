@@ -8,7 +8,7 @@
     Long id = Long.valueOf(request.getParameter("id"));
     Customer customer = customerService.findOne(id);
 %>
-<form action="/customers" method="post">
+<form action="/customers" method="get">
 <fieldset>
     <legend>Customer Information</legend>
     <input type="hidden" name="id" value="<%= customer.getId() %>">

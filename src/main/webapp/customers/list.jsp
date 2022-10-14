@@ -9,7 +9,7 @@
     }
 </style>
 There are ${requestScope.customers.size()} customer(s) in list.
-<table>
+<table style="width: 100%">
     <caption>Customers List</caption>
     <thead>
     <tr>
